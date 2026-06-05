@@ -1,0 +1,23 @@
+input
+int a;
+int b;
+int c;
+
+a = 5;
+b = 10;
+
+if (a < b) {
+    print(a);
+} else {
+    print(b);
+}
+
+while (a < b) {
+    a = a + 1;
+}
+
+def add() {
+    c = a + b;
+}
+
+print(c);
